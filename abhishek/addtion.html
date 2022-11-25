@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+</head>
+<body>
+    <script>
+        var studentdetails = {
+            "name":"abhishekh",
+            'total':0,
+            age:21,gender:'male',
+            marks:[38,36,67,42,56],//this is the part of jason//
+            avg:0
+        };
+for(var i=0;i<studentdetails.mark.length;i++)
+{
+    studentdetails.total +=studentdetails.marks[i];
+}
+studentdetails.avg=studentdetails.total/studentdetails.marks.length;
+console.log("studentdetails");
+console.log("my name is"+studentdetails.name);
+console.log("total is"+studentdetails.total);
+console.log("age is"+studentdetails.age);
+console.log("gender is"+studentdetails.gender);
+console.log("avg is"+studentdetails.avg);
+
+
+
+
+        
+    </script>
+
+    
+</body>
+</html>

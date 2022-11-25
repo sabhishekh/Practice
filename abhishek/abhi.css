@@ -1,0 +1,29 @@
+.text
+{
+    border:1px solid;
+    padding: 0px;
+    margin: 0px;
+    color: brown;
+    text-align: center;
+    
+    
+}
+ul{
+    border: 1px solid;
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ccc;
+}
+.title{
+    font-size: 30px;
+    color: aliceblue;
+    font-style: bold;
+    text-align: center;
+    background-color: rebeccapurple;
+}
+img{
+    height: 460px;
+    width: 345px;
+    text-align: center;
+}

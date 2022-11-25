@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   action type:
+   <select id="useroption"onchange="actionchange()"name="sample">
+    <option>click mouse</option>
+    <option>mouseover</option>
+</select>
+<div id="cantainer">my cantainer</div>
+<script>
+    alert("click happend")
+    var actionchange=()=>{
+        console.log(document.queryselector("#useroption") .getAttribute('name'));
+    var actionselected=document.queryselector("#useroption").value;
+    document.queryselector("#cantainer").addeventlistener(actionselected,()=>{
+        showmesg();
+
+    });
+}
+var showmesg=()=>{
+    alert("click happend");
+}
+
+</script>
+
+
+
+</body>
+</html>

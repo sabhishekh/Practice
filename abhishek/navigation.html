@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"href="nav.css">
+    <link rel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head>
+<body>
+<header>
+    <nav>
+    <div class="logo">photox
+        <span>pi</span>
+
+    </div>
+    <div class="menu">
+    <a href="#"> Home </a>
+    <a href="#">about</a> 
+     <a href="#"> gallery </a>
+    <a href="#"> contact</a>
+    </div>
+    <div class="icon">
+        <i class="fa fa-search"></i>
+        <a href="#">Login</a>
+    </div>
+    </nav>
+    <section class="h-text">
+        <i class="fa fa-camera" id="camera"></i>
+        <h1>capaturing the moment of capative your heart. </h1>
+        <input type="text"name=""placeholder="search the name...">
+        <button><i class="fa fa-search"></i></button>
+    </section>
+</header>
+<section class="filter-gallery">
+    <div class="portfolio-menu">
+        <ul>
+            <li class="active"data-filter="*">All</li>
+                <li data-filter="nature">nature</li>
+                <li data-filter="faishon">faishon</li>
+                    <li data-filter="wedding">wedding</li>
+                 </ul>
+    </div>
+    <div class="portfolio-item">
+        <div class="item nature">
+            <img src="https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg" height="200px"width="200px">
+        </div>
+        <div class="item faision">
+            <img src="https://www.iwmbuzz.com/wp-content/uploads/2020/02/virat-kohli-the-superstar-fashion-icon.jpg"height="200px"width="200px">
+            
+        </div>
+        <div class="item weddinge">
+            
+            <img src="https://images.indianexpress.com/2021/12/anushka-virat-.jpg"height="200px"width="200px" >
+       
+        </div>
+        <div class="item weddinge">
+            
+            <img src="https://images.indianexpress.com/2021/12/anushka-virat-.jpg"height="200px"width="200px">
+    </div>
+       
+            <div class="item weddinge">
+    
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Shri_Virat_Kohli_for_Cricket%2C_in_a_glittering_ceremony%2C_at_Rashtrapati_Bhavan%2C_in_New_Delhi_on_September_25%2C_2018_%28cropped%29.JPG"height="200px"width="200px">
+       
+        </div>
+        
+     </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+</script>
+</script>
+
+    
+</body>
+</html>
